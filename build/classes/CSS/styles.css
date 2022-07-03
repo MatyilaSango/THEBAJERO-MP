@@ -1,0 +1,40 @@
+.exitPane:hover{
+    -fx-border-color: red; 
+    -fx-border-width: 2px;
+}
+.prevPane{
+    -fx-pointer: curser;
+}
+.stopPane{
+    -fx-cursor: hand;
+}
+.playPane{
+    -fx-cursor: hand;
+}
+.pausePane{
+    -fx-cursor: hand;
+}
+.nextPane{
+    -fx-cursor: hand;
+}
+.repeatPane:hover{
+    -fx-cursor: hand;
+}
+.shufflePane:hover{
+    -fx-cursor: hand;
+}
+.loadPane:hover{
+    -fx-cursor: hand;
+}
+.addPane:hover{
+    -fx-cursor: hand;
+}
+.mutePane:hover{
+    -fx-cursor: hand;
+}
+.timer:hover{
+    -fx-cursor: hand;
+}
+.switchPane:hover{
+    -fx-cursor: hand;
+}
