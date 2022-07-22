@@ -62,7 +62,7 @@
                         <Image url="@../../icons/icons8_circled_play_100px_1.png" />
                      </image>
                      <effect>
-                        <DropShadow blurType="GAUSSIAN" height="80.0" radius="39.5" spread="0.93" width="80.0">
+                        <DropShadow blurType="GAUSSIAN" height="30.0" radius="14.5" spread="0.82" width="30.0">
                            <color>
                               <Color red="0.4761904776096344" blue="1.0" />
                            </color>
@@ -208,7 +208,7 @@
             </AnchorPane>
             <AnchorPane fx:id="videoPane" prefHeight="477.0" prefWidth="912.0" style="-fx-background-color: black;">
                <children>
-                  <MediaView fx:id="mediaView" fitHeight="477.0" fitWidth="912.0" />
+                  <MediaView fx:id="mediaView" fitHeight="477.0" fitWidth="912.0" nodeOrientation="INHERIT" />
                </children>
             </AnchorPane>
          </children>
@@ -227,9 +227,9 @@
       </ImageView>
       <ProgressBar fx:id="mediaBar" layoutX="354.0" layoutY="21.0" prefWidth="200.0" progress="0.0">
          <effect>
-            <InnerShadow height="41.04" radius="9.76" width="0.0">
+            <InnerShadow height="10.26" radius="2.065" width="0.0">
                <color>
-                  <Color green="0.45098039507865906" blue="1.0" />
+                  <Color red="0.4000000059604645" green="0.0941176488995552" blue="0.6039215922355652" />
                </color>
             </InnerShadow>
          </effect></ProgressBar>
@@ -239,7 +239,7 @@
          <effect>
             <InnerShadow>
                <color>
-                  <Color green="0.46666666865348816" blue="1.0" />
+                  <Color red="0.4000000059604645" green="0.0941176488995552" blue="0.6039215922355652" />
                </color>
             </InnerShadow>
          </effect>

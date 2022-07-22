@@ -638,6 +638,8 @@ public class FXMLPlayerController implements Initializable {
         } catch (InterruptedException ex) {
             Logger.getLogger(FXMLPlayerController.class.getName()).log(Level.SEVERE, null, ex);
         }
+        
+        mediaBar.setStyle("-fx-accent:   #66189A;");
     }    
     
 }

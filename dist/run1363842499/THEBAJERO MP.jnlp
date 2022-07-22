@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="THEBAJERO MP.jnlp">
+  <information>
+    <title>THEBAJERO MP</title>
+    <vendor>Sango</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\jave-core-3.3.1.jar" size="92796" download="eager" />
+    <jar href="lib\slf4j-api-1.7.36.jar" size="41125" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="THEBAJERO MP" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="thebajero.mp.THEBAJEROMP"  name="THEBAJERO MP" />
+  <update check="always"/>
+</jnlp>
