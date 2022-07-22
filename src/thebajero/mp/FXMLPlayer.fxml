@@ -61,6 +61,13 @@
                      <image>
                         <Image url="@../../icons/icons8_circled_play_100px_1.png" />
                      </image>
+                     <effect>
+                        <DropShadow blurType="GAUSSIAN" height="80.0" radius="39.5" spread="0.93" width="80.0">
+                           <color>
+                              <Color red="0.4761904776096344" blue="1.0" />
+                           </color>
+                        </DropShadow>
+                     </effect>
                   </ImageView>
                </children>
             </AnchorPane>
