@@ -62,7 +62,7 @@
                         <Image url="@../../icons/icons8_circled_play_100px_1.png" />
                      </image>
                      <effect>
-                        <DropShadow blurType="GAUSSIAN" height="80.0" radius="39.5" spread="0.93" width="80.0">
+                        <DropShadow blurType="GAUSSIAN" height="30.0" radius="14.5" spread="0.82" width="30.0">
                            <color>
                               <Color red="0.4761904776096344" blue="1.0" />
                            </color>
@@ -208,7 +208,7 @@
             </AnchorPane>
             <AnchorPane fx:id="videoPane" prefHeight="477.0" prefWidth="912.0" style="-fx-background-color: black;">
                <children>
-                  <MediaView fx:id="mediaView" fitHeight="477.0" fitWidth="912.0" />
+                  <MediaView fx:id="mediaView" fitHeight="477.0" fitWidth="912.0" nodeOrientation="INHERIT" />
                </children>
             </AnchorPane>
          </children>

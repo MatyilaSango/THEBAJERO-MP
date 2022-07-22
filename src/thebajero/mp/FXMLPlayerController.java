@@ -610,7 +610,6 @@ public class FXMLPlayerController implements Initializable {
      * @param player
      */
     public void displayVideo(){
-        
         Thread videoThread = new Thread();
         videoThread.stop();
         videoThread = new Thread(() -> {
