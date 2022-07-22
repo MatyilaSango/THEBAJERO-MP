@@ -208,7 +208,7 @@
             </AnchorPane>
             <AnchorPane fx:id="videoPane" prefHeight="477.0" prefWidth="912.0" style="-fx-background-color: black;">
                <children>
-                  <MediaView fx:id="mediaView" fitHeight="477.0" fitWidth="912.0" nodeOrientation="INHERIT" />
+                  <MediaView fx:id="mediaView" fitHeight="477.0" fitWidth="912.0" />
                </children>
             </AnchorPane>
          </children>

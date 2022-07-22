@@ -64,7 +64,7 @@
                      <effect>
                         <DropShadow blurType="GAUSSIAN" height="30.0" radius="14.5" spread="0.82" width="30.0">
                            <color>
-                              <Color red="0.4761904776096344" blue="1.0" />
+                              <Color red="0.4000000059604645" green="0.0941176488995552" blue="0.6039215922355652" />
                            </color>
                         </DropShadow>
                      </effect>
@@ -208,7 +208,7 @@
             </AnchorPane>
             <AnchorPane fx:id="videoPane" prefHeight="477.0" prefWidth="912.0" style="-fx-background-color: black;">
                <children>
-                  <MediaView fx:id="mediaView" fitHeight="477.0" fitWidth="912.0" nodeOrientation="INHERIT" />
+                  <MediaView fx:id="mediaView" fitHeight="477.0" fitWidth="912.0" />
                </children>
             </AnchorPane>
          </children>
