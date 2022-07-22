@@ -77,6 +77,7 @@ public class FXMLPlayerController implements Initializable {
     boolean repeat = false;
     boolean shuffle = false;
     boolean isPlaying = false;
+    String videoFormats = "avi wmv wmp wm asf mpg mpeg mpe m1v m2v mpv2 mp2v ts tp tpr trp vob ifo ogm ogv mp4 m4v m4p m4b 3gp 3gpp 3g2 3gp2 mkv rm ram rmvb rpm flv swf mov qt nsv dpg m2ts m2t mts dvr-ms k3g skm evo nsr amv divx webm wtv f4v mxf gif";
     String audioFormats = "wav wma mpa mp2 m1a m2a mp3 ogg m4a aac mka ra flac ape mpc mod ac3 eac3 dts dtshd wv tak cda dsf tta aiff aif opus amr m4a";
     String configFile = "C:\\Users\\Sango\\Documents\\NetBeansProjects\\THEBAJERO MP\\src\\thebajero\\mp\\Configurations.config";
     Thread threadHandleTimeBar = new Thread();
@@ -167,7 +168,9 @@ public class FXMLPlayerController implements Initializable {
      * @param file
      */
     public void loadFiles(File file){
-        if (file.isFile() && file.getName().contains(".")) {
+        if (file.isFile() && 
+                (audioFormats.contains(file.getName().substring(this.findPeriod(file.getName())+1, file.getName().length())) || 
+                videoFormats.contains(file.getName().substring(this.findPeriod(file.getName())+1, file.getName().length()))) ) {
             try{
                 mediaFiles.add(file);
             }catch(MediaException e){
